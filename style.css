@@ -50,17 +50,38 @@ h1{
 #message{
     height: 2rem;
     font-size: 2rem;
-    margin: 1rem;
+    margin: 0.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 4rem;
+    margin-top: 3rem;
 }
 .msg{
     padding: 1rem;
-    display: inline;
+    display: inline; /* I think this thing is causing it to have different widths*/
     background-color: rgba(2, 2, 64, 0.986);
     color: white;
     border-radius: 1rem;
-    
+    margin-bottom: 2rem;
+}
+
+.btndiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.reset{
+    height: 3rem;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: aliceblue;
+    cursor: pointer;
+    border-radius: 1rem;
+    background-color: rgb(36, 19, 109);
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
 }
